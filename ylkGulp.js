@@ -6,8 +6,6 @@ var concat = require(`gulp-concat`);
 var exec = require("child_process").exec;
 
 gulp.task(`log1`, async function () {
-    exec("node ./text.js");
-
     gLog.log(gLog.colors.blue("--------->编译脚本"));
     var comb = combined.obj([
         gulp.src("./text*.js"),

@@ -1,0 +1,22 @@
+{
+  "name": "ylkgulptest1",
+  "version": "1.0.0",
+  "description": "gulp测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ylkGulp": "gulp --gulpfile ./ylkGulp.js ",
+    "ylkNode": "node ./text.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "stream-combiner2": "^1.1.1"
+  }
+}
